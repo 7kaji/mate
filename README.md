@@ -36,16 +36,17 @@ end
 
 ```
 $ bundle install
-$ bundle exec rake:db migrate
-$ bundle exec rake:db seed
+$ bundle exec rake db:create
+$ bundle exec rake db:migrate
+$ bundle exec rake db:seed
 
 reset
 
-$ bundle exec rake:db reet
+$ bundle exec rake:db reset
 ```
 
 いろいろ試す
 
 ```
-$ rails c
+$ bundle exec rails c
 ```
